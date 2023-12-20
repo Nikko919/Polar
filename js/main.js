@@ -1,4 +1,11 @@
-document.querySelector('.burger').addEventListener('click', function () {
-    this.classList.toggle('active');
-    document.querySelector('header__menu').classListtoggle('open');
-});
+const menu = document.querySelector('.header__menu')
+const menuBtn = document.querySelector('.burger')
+const body = document.body;
+
+if (menu && menuBtn) {
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('active')
+        menuBtn.classList.toggle('active')
+        body.classList.toggle('lock')
+    })
+}
