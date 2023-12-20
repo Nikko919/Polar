@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Fredoka-Light';
+    src: url(../fonts/Fredoka-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'HindMadurai-Bold';
+    src: url(../fonts/HindMadurai-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'HindMadurai-Medium';
+    src: url(../fonts/HindMadurai-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'HindMadurai-Regular';
+    src: url(../fonts/HindMadurai-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'HindMadurai-SemiBold';
+    src: url(../fonts/HindMadurai-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.woff2) format('woff2');
+}
+
+
+
+:root {
+    --bg-colorhero: #F2CEDA;
+    --color-menu: #150101;
+    --color-title: #0F0101;
+    --color-btn: #D23166;
+    --color-text-footer: #FFFFFF;
+    --border: 5px;
+    --font-fredokaR: Fredoka-Light;
+    --font-Hind-bold: HindMadurai-Bold;
+    --font-Hind-medium: HindMadurai-Medium;
+    --font-Hind-regular: HindMadurai-Regular;
+    --font-Hind-Sembold: HindMadurai-SemiBold;
+    --font-Roboto-bold: Roboto-Bold;
+    --font-Roboto-medium: Roboto-medium;
+    --font-Roboto-regular: Roboto-regular;
+}
+
+body {
+    font-family: var(--font-Hind-regular);
+    font-size: 16px;
+    color: var(--color-menu);
+    background-color: var(--bg-colorhero);
+
+}
+
+.open {
+    display: flex !important;
+}
+
+.container {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header__menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    font-family: var(--font-Roboto-regular);
+    font-size: 14px;
+}
+
+
+.item-link:hover {
+    font-weight: 700;
+    color: var(--color-btn);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.header__link-btn {
+    font-family: var(--font-Hind-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    background-color: var(--color-btn);
+    border-radius: var(--border);
+    -webkit-border-radius: var(--border);
+    -moz-border-radius: var(--border);
+    -ms-border-radius: var(--border);
+    -o-border-radius: var(--border);
+}
+
+.link-btn {
+    color: var(--color-text-footer);
+    padding: 14px 50px;
+
+}
+
+/* burger */
+
+
+.burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50px;
+    height: 30px;
+
+}
+
+.burger span {
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    background-color: var(--color-menu);
+}
+
+.burger::before,
+.burger::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-menu);
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.burger::before {
+    top: 0;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+.burger.active span {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+    -webkit-transform: rotate(-45deg) translate(0, -50%);
+    -moz-transform: rotate(-45deg) translate(0, -50%);
+    -ms-transform: rotate(-45deg) translate(0, -50%);
+    -o-transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+    top: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+    -webkit-transform: rotate(45deg) translate(0, 50%);
+    -moz-transform: rotate(45deg) translate(0, 50%);
+    -ms-transform: rotate(45deg) translate(0, 50%);
+    -o-transform: rotate(45deg) translate(0, 50%);
+}
