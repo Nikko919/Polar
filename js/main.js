@@ -1,11 +1,5 @@
-const menu = document.querySelector('.header__menu')
-const menuBtn = document.querySelector('.burger')
-const body = document.body;
-
-if (menu && menuBtn) {
-    menuBtn.addEventListener('click', () => {
-        menu.classList.toggle('active')
-        menuBtn.classList.toggle('active')
-        body.classList.toggle('lock')
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("burger").addEventListener("click", function () {
+        document.querySelector("header").classList.toggle("open")
     })
-}
+})
