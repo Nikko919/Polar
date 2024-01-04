@@ -44,8 +44,16 @@
 
     }
 
-    /* services */
-
+    /* Brown */
+    .Brown__shadow {
+        position: absolute;
+        width: 295px;
+        height: 30px;
+        top: 77%;
+        left: 29%;
+        background-color: #EDB5C7;
+        z-index: -1;
+    }
 
 }
 
@@ -151,6 +159,41 @@
         padding: 60px 0 50px 0;
         gap: 20px 40px;
     }
+
+    /* Brown */
+
+    .Brown__title {
+        max-width: 350px;
+        font-family: var(--font-Hind-bold);
+        font-size: 45px;
+        line-height: 49px;
+        color: var(--color-title);
+        margin-bottom: 10px;
+    }
+
+    .Brown__subtitle {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .Brown__img-box {
+        position: relative;
+    }
+
+    .Brown__img {
+        width: 300px;
+    }
+
+    .Brown__shadow {
+        position: absolute;
+        width: 140px;
+        height: 20px;
+        top: 77%;
+        left: 29%;
+        background-color: #EDB5C7;
+        z-index: -1;
+    }
+
 }
 
 
@@ -163,6 +206,23 @@
     .hero__box-img {
         display: none;
     }
+
+    /* Brown */
+    .Brown__img-box {
+        display: none;
+    }
+
+    .Brown__title {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .Brown__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
 }
 
 
@@ -176,4 +236,6 @@
     .hero__title {
         font-size: 25px;
     }
+
+
 }

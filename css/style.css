@@ -228,13 +228,11 @@ body {
     margin-top: 37px;
     width: 500px;
     height: 500px;
-
 }
 
 .hero__img {
     width: min(37.31vw, 597px);
 }
-
 
 .hero__img-milk {
     position: absolute;
@@ -309,10 +307,7 @@ body {
     -o-border-radius: 7px;
     box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
     padding-top: 30px;
-
 }
-
-
 
 .card__title {
     font-family: var(--font-Hind-bold);
@@ -325,4 +320,45 @@ body {
     font-family: var(--font-Hind-regular);
     font-size: 14px;
     margin: 9px 0 27px 0;
+}
+
+/* Brown */
+
+.Brown__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brown__title {
+    max-width: 350px;
+    font-family: var(--font-Hind-bold);
+    font-size: 45px;
+    line-height: 49px;
+    color: var(--color-title);
+    margin-bottom: 10px;
+}
+
+.Brown__subtitle {
+    max-width: 445px;
+    font-family: var(--font-Hind-regular);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-menu);
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.Brown__img-box {
+    position: relative;
+}
+
+.Brown__shadow {
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    top: 77%;
+    left: 29%;
+    background-color: #EDB5C7;
+    z-index: -1;
 }
