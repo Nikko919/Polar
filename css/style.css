@@ -65,6 +65,10 @@ body {
 
 }
 
+.wrapper {
+    overflow: hidden;
+}
+
 
 
 .container {
@@ -232,6 +236,8 @@ body {
 
 .hero__img {
     width: min(37.31vw, 597px);
+    animation-name: hero;
+    animation-duration: 2s;
 }
 
 .hero__img-milk {
@@ -240,6 +246,8 @@ body {
     left: -150px;
     z-index: 1;
     width: min(53.75vw, 860px);
+    animation-name: milk;
+    animation-duration: 1.5s;
 }
 
 .img__circle-bg {
@@ -256,18 +264,11 @@ body {
     -o-border-radius: 50%;
     opacity: 0.1;
     z-index: -1;
+    animation-name: circle;
+    animation-duration: 1.3s;
+
 }
 
-.hero__btn-link {
-    padding: 13px 50px 13px 50px;
-    background-color: var(--color-btn);
-    border-radius: var(--border);
-    -webkit-border-radius: var(--border);
-    -moz-border-radius: var(--border);
-    -ms-border-radius: var(--border);
-    -o-border-radius: var(--border);
-    color: var(--color-text-footer);
-}
 
 .img__shadow {
     position: absolute;
@@ -279,7 +280,21 @@ body {
     -webkit-filter: blur(10px);
     bottom: -170px;
     right: 130px;
+    animation-name: shadow;
+    animation-duration: 1.5s;
 
+
+}
+
+.hero__btn-link {
+    padding: 13px 50px 13px 50px;
+    background-color: var(--color-btn);
+    border-radius: var(--border);
+    -webkit-border-radius: var(--border);
+    -moz-border-radius: var(--border);
+    -ms-border-radius: var(--border);
+    -o-border-radius: var(--border);
+    color: var(--color-text-footer);
 }
 
 /* services */
