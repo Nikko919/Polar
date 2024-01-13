@@ -206,6 +206,26 @@
         row-gap: 10px;
     } */
 
+
+
+    .Product__card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .Cayenne {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Product__card-img {
+        margin-bottom: 30px
+    }
+
+    .img-none {
+        display: none;
+    }
 }
 
 
@@ -269,5 +289,32 @@
         flex-direction: column;
         align-items: center;
         row-gap: 10px;
+    }
+
+    .Product__card-img {
+        display: none;
+    }
+
+    .Product__card-subtitle {
+        max-width: 320px;
+        font-size: 14px;
+        text-wrap: balance;
+    }
+
+
+    /* swiper text */
+    .reviews__text {
+        max-width: 255px;
+        font-size: 14px;
+    }
+
+    .img-top {
+        top: 2px;
+        left: -18px;
+    }
+
+    .img-bottom {
+        bottom: 4px;
+        right: 132px;
     }
 }
