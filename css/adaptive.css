@@ -226,6 +226,12 @@
     .img-none {
         display: none;
     }
+
+    /* ordering */
+
+    .ordering__description {
+        margin-left: 50px;
+    }
 }
 
 
@@ -303,6 +309,7 @@
 
 
     /* swiper text */
+
     .reviews__text {
         max-width: 255px;
         font-size: 14px;
@@ -316,5 +323,61 @@
     .img-bottom {
         bottom: 4px;
         right: 132px;
+    }
+
+    /* ordering */
+    .ordering__hero-img {
+        display: none;
+    }
+
+    .ordering__description {
+        margin-left: 10px;
+    }
+
+    .description__title {
+        font-size: 20px;
+    }
+
+    .description__subtitle {
+        max-width: 295px;
+    }
+
+    .description__img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* support */
+    .support__inner {
+        padding-top: 70px;
+    }
+
+    .support__title {
+        font-size: 25px;
+    }
+
+    .support__search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .search__text {
+        width: 270px;
+        margin-bottom: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -ms-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .search__btn {
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -ms-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
     }
 }

@@ -741,3 +741,134 @@ body {
     -ms-border-radius: 0 5px 5px 0;
     -o-border-radius: 0 5px 5px 0;
 }
+
+.footer {
+    background-color: #0A0808;
+}
+
+.footer__inner {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 115px;
+}
+
+.footer__hero {
+    margin-right: 40px;
+}
+
+.footer__text {
+    max-width: 210px;
+    font-family: var(--font-Roboto-medium);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.title__social {
+    font-family: var(--font-Hind-regular);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.social__icon {
+    margin-right: 10px;
+}
+
+.footer__menu {
+    margin-top: 80px;
+    margin-right: 135px;
+}
+
+.footer__menu-item {
+    font-family: var(--font-Roboto-regular);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.footer__menu-item:hover {
+    opacity: 1;
+
+}
+
+.footer__menu-link {
+    color: #fff;
+}
+
+.footer__information {
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+.footer__information-item {
+    font-family: var(--font-Roboto-regular);
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.footer__information-item:hover {
+    opacity: 1;
+}
+
+
+.newsletter__title {
+    font-family: var(--font-Roboto-regular);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-text-footer);
+    margin-bottom: 15px;
+}
+
+.newsletter__form {
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newsletter__input {
+    width: 263px;
+    height: 55px;
+    padding-left: 32px;
+    color: #fff;
+    background-color: inherit;
+}
+
+.newsletter__btn {
+    width: 125px;
+    height: 62px;
+    border-radius: 5px;
+    background-color: #D23166;
+    padding: 16px 17px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newsletter__btn {
+    font-family: var(--font-Roboto-regular);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.payment__img {
+    margin-right: 10px;
+}
