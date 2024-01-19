@@ -55,6 +55,19 @@
         z-index: -1;
     }
 
+    /* footer */
+
+    .footer__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__newsletter {
+
+        margin-top: 45px;
+    }
+
 }
 
 
@@ -232,6 +245,16 @@
     .ordering__description {
         margin-left: 50px;
     }
+
+
+    /* footer */
+
+    .footer__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 30px;
+    }
 }
 
 
@@ -259,6 +282,16 @@
     .Brown__subtitle {
         font-size: 14px;
         line-height: 20px;
+    }
+
+
+    /* footer */
+
+    .footer__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 20px;
     }
 
 }
@@ -379,5 +412,52 @@
         -moz-border-radius: 5px 5px 5px 5px;
         -ms-border-radius: 5px 5px 5px 5px;
         -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    /* footer */
+
+    .footer__hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .footer__social {
+        transform: translateX(-40%);
+        -webkit-transform: translateX(-40%);
+        -moz-transform: translateX(-40%);
+        -ms-transform: translateX(-40%);
+        -o-transform: translateX(-40%);
+    }
+
+    .footer__menu {
+        margin-top: 60px;
+        transform: translateX(-25%);
+        -webkit-transform: translateX(-25%);
+        -moz-transform: translateX(-25%);
+        -ms-transform: translateX(-25%);
+        -o-transform: translateX(-25%);
+    }
+
+    .footer__information {
+        transform: translate(128%, -170%);
+        -webkit-transform: translate(128%, -170%);
+        -moz-transform: translate(128%, -170%);
+        -ms-transform: translate(128%, -170%);
+        -o-transform: translate(128%, -170%);
+    }
+
+    .footer__newsletter {
+        transform: translate(0, -100%);
+        -webkit-transform: translate(0, -100%);
+        -moz-transform: translate(0, -100%);
+        -ms-transform: translate(0, -100%);
+        -o-transform: translate(0, -100%);
+    }
+
+    .newsletter__input {
+        width: 145px;
     }
 }

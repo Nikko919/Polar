@@ -750,6 +750,7 @@ body {
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    flex-wrap: wrap;
     padding-top: 70px;
     padding-bottom: 115px;
 }
